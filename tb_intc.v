@@ -30,6 +30,7 @@ module tb_intc();
     #10 iack = 1;
     #10 iack = 0;
     #10;
+    done1 = 1'b0; done2 = 1'b1; done3 = 1'b1; done4 = 1'b1;
     #10 iack = 1;
     #10 iack = 0;
     #10;
